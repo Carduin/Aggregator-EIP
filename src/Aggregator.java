@@ -31,11 +31,11 @@ public class Aggregator {
               FileWriter fileWriter = new FileWriter("result.txt");
               PrintWriter printWriter = new PrintWriter(fileWriter);
 
-              for (Map.Entry<Integer, List<Sale>> entry : aggregates.entrySet()) {
-                  Integer clientId = entry.getKey();
-                  Integer totalOrders = entry.getValue().size();
+              for (Map.Entry<Integer, List<Sale>> aggregateElement : aggregates.entrySet()) {
+                  Integer clientId = aggregateElement.getKey();
+                  Integer totalOrders = aggregateElement.getValue().size();
                   double totalCharged = 0.0;
-                  for(Sale sale: entry.getValue()) {
+                  for(Sale sale: aggregateElement.getValue()) {
                       totalCharged = totalCharged + (sale.getPrice() * sale.getQuantity());
                   }
 

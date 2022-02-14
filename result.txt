@@ -1,0 +1,8 @@
+Client 1 ordered 8 items for a total of 2641,900000 
+Client 2 ordered 3 items for a total of 62,200000 
+Client 3 ordered 3 items for a total of 57,200000 
+Client 5 ordered 1 items for a total of 9,000000 
+Client 6 ordered 2 items for a total of 40,000000 
+Client 7 ordered 1 items for a total of 1,500000 
+Client 8 ordered 1 items for a total of 1,500000 
+Client 9 ordered 1 items for a total of 7,500000 
